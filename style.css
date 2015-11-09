@@ -1,0 +1,263 @@
+/*
+Theme Name:   ProfitMag Child
+Theme URI:    http://example.com/profitmag-child/
+Description:  ProfitMag Child Theme
+Author:       Irwin
+Author URI:   http://example.com
+Template:     profitmag
+Version:      0.0.1
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  profitmag-child
+*/
+
+/*--- Additional Custom CSS [start] --- */
+
+/***** ADDITIONAL *****/
+#footer-social {
+    float: left;
+}
+.entry-content a:link {
+    color: #0645AD;
+}
+
+/***** Override Parent *****/
+body{
+    font-size: 16px;
+}
+
+a:hover{
+	color:#16ba47;
+}
+.ticker-wrapper.has-js{
+	background: none;
+	border-radius: 0;
+	height: auto;
+	margin: 0;
+	padding:0;
+	width: 400px;
+}
+.ticker{
+	background: none;
+	height: auto;
+	width: 100%;
+}
+.ticker-title, .ticker-content, .ticker-content a{
+	background: none;
+	color: #ffffff;
+	line-height: 48px;
+	padding: 0 0 0 13px;
+
+}
+.ticker-title{
+	background: #16ba47;	
+	line-height: 40px;
+	padding: 0 18px;	
+}
+.ticker-wrapper.has-js{
+	font-size: 14px;
+}
+.ticker-content a:hover{
+	color: #16ba47;
+	text-decoration: none;
+}
+.socials a:hover{
+	color:#16ba47;
+}
+/***** LOGO & ADDS *****/
+.site-branding{
+	padding: 15px 0 9px;
+}
+.site-logo.f-left > a {
+    display: inline-block;
+    padding-top: 12px;
+}
+.site-logo.f-left {
+    width: 40%;
+}
+.site-logo.f-left img {
+    width: 100%;
+}
+.header-ads.f-right {
+    text-align: right;
+    width: 50%;
+}
+.header-ads.f-right img {
+    width: 100%;
+}
+/*----------------------------------*/
+.header-wrapper #site-navigation{
+	background: #000000;
+	border-bottom: 2px solid #16ba47;
+	min-height: 50px;
+    position: relative;
+}
+.header-wrapper .menu li{
+	background:url(images/menu-bg.png) repeat-y scroll right top #000000;
+	border-bottom: 2px solid #16ba47;
+	position: relative;
+}
+.header-wrapper .menu li:hover:before,.header-wrapper .menu li.current-menu-item:before{
+	background: #16ba47;
+	content: '';
+	height: 4px;
+	left: 0;
+	position: absolute;
+	top: -4px;
+	width: 100%;
+}
+.header-wrapper .search-block input#s, .widget_search input#s{
+	border: 1px solid #16ba47;
+	color: #000000;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 31px;
+	height: 31px;
+	padding: 2px 23px 2px 8px;
+	width: 100%;
+}
+/*-----------------*\
+    #FOOTER
+\*-----------------*/
+/*** COMMON FOOTER CSS ***/
+.footer-wrapper a:hover{
+	color:#16ba47;
+}
+.red{
+	color: #16ba47;
+}
+.footer-wrapper .socials a:hover{
+	color: #16ba47;
+}
+.footer2 {
+	text-align:right;
+}
+/*----------------------------------*/
+.slider-section {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 660px;
+    height: 365px;
+}
+.slider-section .slider-desc{
+	background: rgb(0, 0, 0);
+	background: transparent;
+	background: rgba(0, 0, 0, 0.5);/* FF3+,Saf3+,Opera 10.10+,Chrome,IE9*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);/*IE 5.5-7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000)";/*IE8*/
+	zoom: 1;
+	bottom: 0;
+	color: #ffffff;
+	left: 0;
+	padding-bottom: 24px;
+	position: absolute;
+	top: 250px;
+	width: 100%;
+}
+
+.slider-section .slide-date {
+    background: none repeat scroll 0 0 #16ba47;
+    display: inline-block;
+    font-size: 11px;
+    padding: 4px 11px;
+}
+.besides-block .beside-post{
+	border-bottom: 3px solid #16ba47;
+	float: left;
+	margin:0 0 15px 15px;
+	position: relative;
+	width: 47%;
+}
+.secondary-sidebar .widget-title:before, .profitmag_widget_popular_entries .widget-title:before{
+	bottom: 0;
+	content: '';
+	border-bottom: 7px solid #16ba47;
+	display: inline-block;
+	left: 0;
+	position: absolute;
+	text-transform: uppercase;
+	width: 117px;
+}
+.bordertitle-red{
+	border-bottom-color: #16ba47;
+}
+.view-all-link a{
+    border: 2px solid #16ba47;
+    color: #16ba47;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    float: right;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 79px;
+}
+.view-all-link a:hover{
+	background:  #16ba47;
+	color: #ffffff;
+}
+.featured-post .post-thumb {
+    border-bottom: 3px solid #16ba47;
+    margin-bottom: 12px;
+}
+#calendar_wrap #wp-calendar #today, #calendar_wrap #wp-calendar #today a {
+	background: none repeat scroll 0 0 #16ba47;
+    color: #fff;
+}
+.post-main-desc{
+	width:42%;/*350px*/
+	float:right;
+	padding:0 0 0  20px;
+	height:104px;
+}
+.featured-post-block-coltype .post-thumb-mini {
+    border-bottom: 3px solid #16ba47;
+    float: left;
+    height:auto; /*115px*/
+    width: 42%;/*175px*/
+}
+.single-thumb {
+    float: left;
+    width:66%; /*563px*/
+    margin-bottom: 12px;
+}
+.posted-on a:hover,.cat-links a:hover,.comments-link a:hover,.edit-link a:hover{
+	color:#16ba47;
+}
+.single .entry-content{
+	color:#000;
+	font-size:14px;
+	line-height:22px;
+	padding:0 0 10px 0;
+}
+.comment-form .form-submit input, .read-more{
+	border: 2px solid #16ba47;
+    color: #16ba47;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 26px;
+    padding:4px 10px;
+    background-color:#fff;
+    width:auto;
+    transition:all 0.3s ease-in-out 0s;
+    -webkit-transition:all 0.3s ease-in-out 0s;
+    -moz-transition:all 0.3s ease-in-out 0s;
+}
+article.post .read-more {
+    display: block;
+    float: right;
+    margin-bottom: 16px;
+    width: 100px;
+}
+.page-numbers:hover, .page-numbers.current{
+ 	background-color: #16ba47;
+    color: #fff;
+}
+
+/*--- Additional Custom CSS [end] --- */
