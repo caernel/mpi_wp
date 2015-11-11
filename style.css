@@ -87,6 +87,9 @@ a:hover{
     width: 100%;
 }
 /*----------------------------------*/
+.main-navigation ul ul {
+	top: 3em;
+}
 .header-wrapper #site-navigation{
 	background: #000000;
 	border-bottom: 2px solid #16ba47;
@@ -156,12 +159,24 @@ a:hover{
 	top: 250px;
 	width: 100%;
 }
-
 .slider-section .slide-date {
     background: none repeat scroll 0 0 #16ba47;
     display: inline-block;
     font-size: 11px;
     padding: 4px 11px;
+}
+.slider-section .bx-controls-direction a{
+	background: url(images/slider-controls.png) no-repeat;
+	color: transparent;
+	display: inline-block;
+	font:0/0 a;
+	height: 30px;
+	left: 0;
+	margin: 0;
+	position: relative;
+	top:0;
+	text-shadow:none;
+	width: 30px;
 }
 .besides-block .beside-post{
 	border-bottom: 3px solid #16ba47;
