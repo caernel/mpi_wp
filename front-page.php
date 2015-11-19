@@ -855,14 +855,15 @@ if( $profitmag_settings['tc_activate'] == 1 ) {
                         </div>
                    
 		                    <div id="gallery-carousel" class="flexslider clearfix scroll-content">
-		                        <ul class="slides ">
-		                                <?php   foreach( $profitmag_settings['media_gallery'] as $image ): 
-		                                        $attachment_id = profitmag_get_image_id( $image );
-		                                        $img_url = wp_get_attachment_image_src($attachment_id,'gallery-thumb');
-		                                        $img_url_full = wp_get_attachment_image_src($attachment_id,'gallery-full');
-		                                ?>
-		                                        <li><img class="fullPreview" src="<?php echo $img_url[0]; ?>" alt="Gallery" data-image-full="<?php echo $img_url_full[0]; ?>" /></li>
-		                                <?php   endforeach;?>
+		                        <ul class="slides">
+		                            <?php 
+		                              foreach( $profitmag_settings['media_gallery'] as $image ): 
+		                                    $attachment_id = profitmag_get_image_id( $image );
+		                                    $img_url = wp_get_attachment_image_src($attachment_id,'gallery-full');
+		                                    
+		                            ?>
+		                                    <li><img id="previewHolder" src="<?php echo $img_url[0]; ?>" alt="Gallery" height="537px" /></li>
+		                            <?php   break; endforeach; ?>
 		                        </ul>
 		                    </div>
                      </div><!--gallery-block-->
